@@ -1,2 +1,264 @@
-# Vault-EHR
-This an electronic health record of high impact system
+# VAULT EHR (Electronic Health Record Management System)
+A simulated NIST RMF portfolio project for Vault, a fictional Electronic Healthcare Records (EHR) management system. It includes system categorization, security control selection, System Security Plan (SSP), risk assessment, Plan of Action and Milestones (POA&M), Authorization to Operate (ATO), and continuous monitoring. Developed solely for educational and learning purposes.
+
+
+# PROJECT NAME
+
+# 🏥 VAULT — ELECTRONIC HEALTHCARE MANAGEMENT SYSTEM
+**Document Type:** System Overview
+**System Name:** Bundle
+**Version:** 1.0
+**Status:** Draft
+**Classification:** Unclassified — For Portfolio Use Only
+
+---
+
+## **OBJECTIVE**
+This project simulates an end-to-end NIST Risk Management Framework (RMF)
+authorization process for Bundle, a fictional Electronic Healthcare Management
+System (EHR). The primary focus is to demonstrate practical understanding of
+system categorization, security control selection, implementation, assessment,
+authorization, and continuous monitoring of a healthcare system that processes
+Protected Health Information (PHI) and Personally Identifiable Information (PII).
+
+This hands-on project is designed to build and demonstrate real-world GRC
+and security documentation skills in a healthcare compliance context.
+
+---
+
+## **SKILLS LEARNED**
+
+- Practical application of the NIST RMF lifecycle from categorization to
+  continuous monitoring
+- Understanding of FIPS 199 system categorization for healthcare systems
+- Ability to select and tailor security controls from NIST SP 800-53 Rev 5
+- Development of System Security Plan (SSP) documentation
+- Risk assessment and risk register development for a healthcare environment
+- Security Assessment Plan (SAP) and Security Assessment Report (SAR) writing
+- POA&M tracking and remediation planning
+- Understanding of HIPAA Security Rule requirements and how they map to
+  NIST controls
+- Authorization to Operate (ATO) package development
+- Continuous monitoring strategy and scheduling
+
+---
+
+## **TOOLS USED**
+
+- **NIST SP 800-53 Rev 5** — Security control selection and tailoring
+- **FIPS 199** — System categorization
+- **NIST SP 800-60 Vol. 1 & 2** — Information type identification
+- **NIST SP 800-30** — Risk assessment methodology
+- **draw.io** — Network and data flow diagrams
+- **Microsoft Word / Markdown** — Security documentation
+- **GitHub** — Project hosting and version control
+- **NIST RMF Cybersecurity Framework** — Overall project structure
+
+---
+
+## **1. SYSTEM DESCRIPTION**
+
+Bundle is a hybrid Electronic Healthcare Management System designed to
+support day-to-day healthcare operations. The system enables healthcare
+providers to manage patient records, appointments, billing, and clinical
+documentation in a secure and centralized environment.
+
+Bundle processes, stores, and transmits sensitive health information
+including Protected Health Information (PHI) and Personally Identifiable
+Information (PII), making security and compliance a critical priority.
+
+---
+
+## **2. SYSTEM PURPOSE AND MISSION**
+
+The primary mission of Bundle is to:
+
+- Support patient registration and profile management
+- Enable appointment scheduling and tracking
+- Maintain and manage Electronic Health Records (EHR)
+- Facilitate billing and insurance coordination
+- Support clinical documentation by healthcare providers
+- Generate operational and compliance reports
+- Maintain audit logs for security and compliance purposes
+
+---
+
+## **3. SYSTEM USERS**
+
+| User Role | Description |
+|-----------|-------------|
+| **Patients** | Access personal health records and appointments |
+| **Doctors** | View and update patient records and treatment notes |
+| **Nurses** | Access patient information and update care notes |
+| **Administrative Staff** | Manage scheduling and patient registration |
+| **Billing Staff** | Process billing and insurance claims |
+| **System Administrators** | Manage system configuration and user accounts |
+| **Security Team** | Monitor system security and respond to incidents |
+
+---
+
+## **4. SYSTEM ENVIRONMENT**
+
+Bundle operates in a **hybrid environment** consisting of:
+
+| Component | Environment |
+|-----------|-------------|
+| Web Application Server | Cloud-hosted (AWS) |
+| Database Server | On-Premise |
+| Authentication Service | Cloud-hosted (AWS) |
+| Audit Logging Server | On-Premise |
+| Backup Server | Cloud-hosted (AWS) |
+| Admin Workstations | On-Premise |
+| Clinician Endpoints | On-Premise |
+
+---
+
+## **5. DATA HANDLED BY BUNDLE**
+
+| Data Type | Description | Sensitivity |
+|-----------|-------------|-------------|
+| **PHI** | Protected Health Information | High |
+| **PII** | Personally Identifiable Information | High |
+| **Billing Data** | Insurance and payment records | High |
+| **Treatment Notes** | Clinical documentation | High |
+| **Appointment Data** | Scheduling records | Moderate |
+| **Audit Logs** | System activity records | Moderate |
+| **Authentication Data** | Login credentials and access tokens | High |
+
+---
+
+## **6. SYSTEM COMPONENTS**
+
+| Component | Function |
+|-----------|----------|
+| **Web Application Server** | Hosts the Bundle user interface and application logic |
+| **Database Server** | Stores patient records, billing data, and system data |
+| **Authentication Service** | Manages user identity verification and access control |
+| **Audit Logging Server** | Captures and stores all system activity logs |
+| **Backup Server** | Maintains encrypted backups of critical system data |
+| **Admin Workstations** | Used by IT and security staff to manage the system |
+| **Clinician Endpoints** | Devices used by doctors and nurses to access Bundle |
+
+---
+
+## **7. COMPLIANCE AND REGULATORY SCOPE**
+
+| Framework / Regulation | Relevance |
+|-----------------------|-----------|
+| **HIPAA** | Bundle processes PHI and must meet HIPAA Security Rule requirements |
+| **NIST SP 800-53 Rev 5** | Primary control framework for RMF authorization |
+| **FIPS 199** | Used to categorize Bundle based on impact levels |
+| **NIST SP 800-60** | Used to identify information types handled by Bundle |
+| **GDPR** | Applicable if Bundle handles data of EU-based individuals |
+
+---
+
+## **STEPS**
+
+### **STEP 1 — SYSTEM OVERVIEW AND BOUNDARY DEFINITION**
+Definition of what Bundle is, who uses it, what data it handles,
+and where the system boundary begins and ends.
+
+*Ref 1: Architecture Diagram*
+[![Architecture Diagram](./diagrams/Architecture_Diagram.png)](https://github.com/edwardchibuzo/Architecture_Diagram.png)
+
+---
+
+### **STEP 2 — SYSTEM CATEGORIZATION**
+Categorize Bundle using FIPS 199 and NIST SP 800-60 based on
+the sensitivity of data handled.
+
+*Ref 2: FIPS 199 Categorization Table*
+![Categorization Table](./diagrams/FIPS199_Table.png)
+
+---
+
+### **STEP 3 — CONTROL SELECTION**
+Select and tailor security controls from NIST SP 800-53 Rev 5
+based on Bundle's High impact categorization.
+
+*Ref 3: Control Baseline Summary*
+![Control Baseline](./diagrams/Control_Baseline.png)
+
+---
+
+### **STEP 4 — SYSTEM SECURITY PLAN**
+Document how each selected control is implemented within Bundle.
+
+*Ref 4: SSP Cover Page*
+![SSP](./diagrams/SSP_Cover.png)
+
+---
+
+### **STEP 5 — RISK ASSESSMENT**
+Identify threats and vulnerabilities specific to a healthcare
+environment and rate them by likelihood and impact.
+
+*Ref 5: Risk Register*
+![Risk Register](./diagrams/Risk_Register.png)
+
+---
+
+### **STEP 6 — SECURITY ASSESSMENT**
+Develop a SAP and SAR to test whether Bundle's controls
+are working as intended.
+
+*Ref 6: SAR Findings Summary*
+![SAR](./diagrams/SAR_Findings.png)
+
+---
+
+### **STEP 7 — POA&M**
+Track all findings and weaknesses with remediation plans
+and target completion dates.
+
+*Ref 7: POA&M Tracker*
+![POAM](./diagrams/POAM_Tracker.png)
+
+---
+
+### **STEP 8 — AUTHORIZATION**
+Compile the full ATO package and make an authorization
+recommendation based on Bundle's risk posture.
+
+*Ref 8: Authorization Recommendation*
+![ATO](./diagrams/ATO_Recommendation.png)
+
+---
+
+### **STEP 9 — CONTINUOUS MONITORING**
+Document how Bundle will be monitored on an ongoing basis
+after authorization.
+
+*Ref 9: Continuous Monitoring Schedule*
+![ConMon](./diagrams/ConMon_Schedule.png)
+
+---
+
+## **KEY ASSUMPTIONS**
+
+- Bundle is a fictional system created for portfolio and learning purposes
+- All data, scenarios, and documentation are simulated
+- Security controls are selected based on a High impact baseline
+- The hybrid environment assumes AWS as the cloud service provider
+- No real PHI or PII is used anywhere in this project
+
+---
+
+## **DOCUMENT CONTROL**
+
+| Field | Detail |
+|-------|--------|
+| **Author** | [Your Name] |
+| **Created** | [Date] |
+| **Last Updated** | [Date] |
+| **Next Review** | [Date] |
+| **Version** | 1.0 |
+
+---
+
+⚠️ **DISCLAIMER**
+Bundle is a fictional system created solely for educational and portfolio
+demonstration purposes. All data, scenarios, and documentation within
+this project are simulated and do not represent any real organization,
+system, or individual.
