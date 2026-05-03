@@ -5,11 +5,13 @@ A simulated NIST RMF portfolio project for Vault, a fictional Electronic Healthc
 # PROJECT NAME
 
 # 🏥 VAULT — ELECTRONIC HEALTHCARE MANAGEMENT SYSTEM
-**Document Type:** System Overview
-**System Name:** Bundle
-**Version:** 1.0
-**Status:** Draft
-**Classification:** Unclassified — For Portfolio Use Only
+|Field | Details |
+|------|--------|
+|**Document Type:** | System Overview |
+|**System Name:** | Vault |
+|**Version:** | 1.0 |
+|**Status:** | Draft |
+|**Classification:** | Unclassified — For Portfolio Use Only |
 
 
 ## **OBJECTIVE**
