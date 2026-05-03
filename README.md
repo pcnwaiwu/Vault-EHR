@@ -77,7 +77,7 @@ The primary mission of Vault is to:
 | **Administrative Staff** | Manage scheduling and patient registration |
 | **Billing Staff** | Process billing and insurance claims |
 | **System Administrators** | Manage system configuration and user accounts |
-| **Security Team** | Monitor system security and respond to inci
+| **Security Team** | Monitor system security and respond to incidents |
 
 ## **4. SYSTEM ENVIRONMENT**
 
