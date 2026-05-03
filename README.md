@@ -11,20 +11,11 @@ A simulated NIST RMF portfolio project for Vault, a fictional Electronic Healthc
 **Status:** Draft
 **Classification:** Unclassified — For Portfolio Use Only
 
----
 
 ## **OBJECTIVE**
-This project simulates an end-to-end NIST Risk Management Framework (RMF)
-authorization process for Bundle, a fictional Electronic Healthcare Management
-System (EHR). The primary focus is to demonstrate practical understanding of
-system categorization, security control selection, implementation, assessment,
-authorization, and continuous monitoring of a healthcare system that processes
-Protected Health Information (PHI) and Personally Identifiable Information (PII).
+This project is a complete end-to-end NIST Risk Management Framework (RMF) authorization process for Vault, a fictional Electronic Healthcare Management System (EHR). Its main objective is to showcase practical knowledge of system categorization, security control selection, implementation, assessment, authorization, and continuous monitoring for a healthcare system that handles Protected Health Information (PHI) and Personally Identifiable Information (PII).
 
-This hands-on project is designed to build and demonstrate real-world GRC
-and security documentation skills in a healthcare compliance context.
-
----
+This practical project is intended to develop and demonstrate real-world Governance, Risk, and Compliance (GRC) expertise, along with security documentation skills within a healthcare regulatory environment.
 
 ## **SKILLS LEARNED**
 
@@ -41,7 +32,6 @@ and security documentation skills in a healthcare compliance context.
 - Authorization to Operate (ATO) package development
 - Continuous monitoring strategy and scheduling
 
----
 
 ## **TOOLS USED**
 
@@ -54,20 +44,13 @@ and security documentation skills in a healthcare compliance context.
 - **GitHub** — Project hosting and version control
 - **NIST RMF Cybersecurity Framework** — Overall project structure
 
----
 
 ## **1. SYSTEM DESCRIPTION**
 
-Bundle is a hybrid Electronic Healthcare Management System designed to
-support day-to-day healthcare operations. The system enables healthcare
-providers to manage patient records, appointments, billing, and clinical
-documentation in a secure and centralized environment.
+Vault is a hybrid Electronic Healthcare Management System built to streamline daily healthcare operations. It allows healthcare providers to manage patient records, appointments, billing, and clinical documentation within a secure, centralized platform.
 
-Bundle processes, stores, and transmits sensitive health information
-including Protected Health Information (PHI) and Personally Identifiable
-Information (PII), making security and compliance a critical priority.
+The system processes, stores, and transmits sensitive data, including Protected Health Information (PHI) and Personally Identifiable Information (PII), making strong security controls and regulatory compliance essential priorities.
 
----
 
 ## **2. SYSTEM PURPOSE AND MISSION**
 
