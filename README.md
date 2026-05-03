@@ -56,7 +56,7 @@ The system processes, stores, and transmits sensitive data, including Protected 
 
 ## **2. SYSTEM PURPOSE AND MISSION**
 
-The primary mission of Bundle is to:
+The primary mission of Vault is to:
 
 - Support patient registration and profile management
 - Enable appointment scheduling and tracking
@@ -66,7 +66,6 @@ The primary mission of Bundle is to:
 - Generate operational and compliance reports
 - Maintain audit logs for security and compliance purposes
 
----
 
 ## **3. SYSTEM USERS**
 
@@ -78,13 +77,11 @@ The primary mission of Bundle is to:
 | **Administrative Staff** | Manage scheduling and patient registration |
 | **Billing Staff** | Process billing and insurance claims |
 | **System Administrators** | Manage system configuration and user accounts |
-| **Security Team** | Monitor system security and respond to incidents |
-
----
+| **Security Team** | Monitor system security and respond to inci
 
 ## **4. SYSTEM ENVIRONMENT**
 
-Bundle operates in a **hybrid environment** consisting of:
+Vault operates in a **hybrid environment** consisting of:
 
 | Component | Environment |
 |-----------|-------------|
@@ -96,7 +93,6 @@ Bundle operates in a **hybrid environment** consisting of:
 | Admin Workstations | On-Premise |
 | Clinician Endpoints | On-Premise |
 
----
 
 ## **5. DATA HANDLED BY BUNDLE**
 
@@ -110,13 +106,12 @@ Bundle operates in a **hybrid environment** consisting of:
 | **Audit Logs** | System activity records | Moderate |
 | **Authentication Data** | Login credentials and access tokens | High |
 
----
 
 ## **6. SYSTEM COMPONENTS**
 
 | Component | Function |
 |-----------|----------|
-| **Web Application Server** | Hosts the Bundle user interface and application logic |
+| **Web Application Server** | Hosts the Vault user interface and application logic |
 | **Database Server** | Stores patient records, billing data, and system data |
 | **Authentication Service** | Manages user identity verification and access control |
 | **Audit Logging Server** | Captures and stores all system activity logs |
@@ -124,56 +119,49 @@ Bundle operates in a **hybrid environment** consisting of:
 | **Admin Workstations** | Used by IT and security staff to manage the system |
 | **Clinician Endpoints** | Devices used by doctors and nurses to access Bundle |
 
----
-
 ## **7. COMPLIANCE AND REGULATORY SCOPE**
 
 | Framework / Regulation | Relevance |
 |-----------------------|-----------|
-| **HIPAA** | Bundle processes PHI and must meet HIPAA Security Rule requirements |
+| **HIPAA** | Vault processes PHI and must meet HIPAA Security Rule requirements |
 | **NIST SP 800-53 Rev 5** | Primary control framework for RMF authorization |
 | **FIPS 199** | Used to categorize Bundle based on impact levels |
 | **NIST SP 800-60** | Used to identify information types handled by Bundle |
-| **GDPR** | Applicable if Bundle handles data of EU-based individuals |
+| **GDPR** | Applicable if Vault handles data of EU-based individuals |
 
----
 
 ## **STEPS**
 
 ### **STEP 1 — SYSTEM OVERVIEW AND BOUNDARY DEFINITION**
-Definition of what Bundle is, who uses it, what data it handles,
+Definition of what Vault is, who uses it, what data it handles,
 and where the system boundary begins and ends.
 
 *Ref 1: Architecture Diagram*
 [![Architecture Diagram](./diagrams/Architecture_Diagram.png)](https://github.com/edwardchibuzo/Architecture_Diagram.png)
 
----
 
 ### **STEP 2 — SYSTEM CATEGORIZATION**
-Categorize Bundle using FIPS 199 and NIST SP 800-60 based on
+Categorize Vault using FIPS 199 and NIST SP 800-60 based on
 the sensitivity of data handled.
 
 *Ref 2: FIPS 199 Categorization Table*
 ![Categorization Table](./diagrams/FIPS199_Table.png)
 
----
 
 ### **STEP 3 — CONTROL SELECTION**
 Select and tailor security controls from NIST SP 800-53 Rev 5
-based on Bundle's High impact categorization.
+based on Vault's High impact categorization.
 
 *Ref 3: Control Baseline Summary*
 ![Control Baseline](./diagrams/Control_Baseline.png)
 
----
 
 ### **STEP 4 — SYSTEM SECURITY PLAN**
-Document how each selected control is implemented within Bundle.
+Document how each selected control is implemented within Vault.
 
 *Ref 4: SSP Cover Page*
 ![SSP](./diagrams/SSP_Cover.png)
 
----
 
 ### **STEP 5 — RISK ASSESSMENT**
 Identify threats and vulnerabilities specific to a healthcare
@@ -182,16 +170,14 @@ environment and rate them by likelihood and impact.
 *Ref 5: Risk Register*
 ![Risk Register](./diagrams/Risk_Register.png)
 
----
 
 ### **STEP 6 — SECURITY ASSESSMENT**
-Develop a SAP and SAR to test whether Bundle's controls
+Develop a SAP and SAR to test whether Vault's controls
 are working as intended.
 
 *Ref 6: SAR Findings Summary*
 ![SAR](./diagrams/SAR_Findings.png)
 
----
 
 ### **STEP 7 — POA&M**
 Track all findings and weaknesses with remediation plans
@@ -200,50 +186,47 @@ and target completion dates.
 *Ref 7: POA&M Tracker*
 ![POAM](./diagrams/POAM_Tracker.png)
 
----
 
 ### **STEP 8 — AUTHORIZATION**
 Compile the full ATO package and make an authorization
-recommendation based on Bundle's risk posture.
+recommendation based on Vault's risk posture.
 
 *Ref 8: Authorization Recommendation*
 ![ATO](./diagrams/ATO_Recommendation.png)
 
----
 
 ### **STEP 9 — CONTINUOUS MONITORING**
-Document how Bundle will be monitored on an ongoing basis
+Document how Vault will be monitored on an ongoing basis
 after authorization.
 
 *Ref 9: Continuous Monitoring Schedule*
 ![ConMon](./diagrams/ConMon_Schedule.png)
 
----
+
 
 ## **KEY ASSUMPTIONS**
 
-- Bundle is a fictional system created for portfolio and learning purposes
+- Vault is a fictional system created for portfolio and learning purposes
 - All data, scenarios, and documentation are simulated
 - Security controls are selected based on a High impact baseline
 - The hybrid environment assumes AWS as the cloud service provider
 - No real PHI or PII is used anywhere in this project
 
----
 
 ## **DOCUMENT CONTROL**
 
 | Field | Detail |
 |-------|--------|
-| **Author** | [Your Name] |
-| **Created** | [Date] |
-| **Last Updated** | [Date] |
+| **Author** | Philippa Nwaiwu |
+| **Created** | 02/01/2026 |
+| **Last Updated** | 04/15/2026 |
 | **Next Review** | [Date] |
 | **Version** | 1.0 |
 
----
+
 
 ⚠️ **DISCLAIMER**
-Bundle is a fictional system created solely for educational and portfolio
+Vault is a fictional system created solely for educational and portfolio
 demonstration purposes. All data, scenarios, and documentation within
 this project are simulated and do not represent any real organization,
 system, or individual.
