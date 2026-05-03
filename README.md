@@ -94,7 +94,7 @@ Vault operates in a **hybrid environment** consisting of:
 | Clinician Endpoints | On-Premise |
 
 
-## **5. DATA HANDLED BY BUNDLE**
+## **5. DATA HANDLED BY VAULT**
 
 | Data Type | Description | Sensitivity |
 |-----------|-------------|-------------|
