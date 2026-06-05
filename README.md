@@ -145,7 +145,7 @@ Categorize Vault using FIPS 199 and NIST SP 800-60 based on
 the sensitivity of data handled.
 
 *Ref 2: FIPS 199 Categorization Table*
-![Categorization Table](./fips-199-categorization.md)
+![Categorization Table](./https://github.com/pcnwaiwu/Vault-EHR/blob/main/vault-ehr-rmf/vault-ehr-rmf/01-categorize/fips-199-categorization.md)
 
 
 ### **STEP 3 — CONTROL SELECTION**
