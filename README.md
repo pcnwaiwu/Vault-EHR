@@ -137,7 +137,7 @@ Definition of what Vault is, who uses it, what data it handles,
 and where the system boundary begins and ends.
 
 *Ref 1: Architecture Diagram*
-[![Architecture Diagram](./diagrams/Architecture_Diagram.png)](https://github.com/edwardchibuzo/Architecture_Diagram.png)
+[![Architecture Diagram](./diagrams/Architecture_Diagram.png)](https://github.com/pcnwaiwu/Architecture_Diagram.png)
 
 
 ### **STEP 2 — SYSTEM CATEGORIZATION**
