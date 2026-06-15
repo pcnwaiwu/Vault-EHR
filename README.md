@@ -152,7 +152,7 @@ Select and tailor security controls from NIST SP 800-53 Rev 5
 based on Vault's High impact categorization.
 
 *Ref 3: Control Baseline Summary*
-![Control Baseline](./diagrams/Control_Baseline.png)
+![Control Baseline](./vault-ehr-rmf/vault-ehr-rmf/02-select/control-baseline.md)
 
 
 ### **STEP 4 — SYSTEM SECURITY PLAN**
