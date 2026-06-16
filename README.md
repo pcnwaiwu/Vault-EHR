@@ -159,7 +159,7 @@ based on Vault's High impact categorization.
 Document how each selected control is implemented within Vault.
 
 *Ref 4: SSP Cover Page*
-![SSP](./diagrams/SSP_Cover.png)
+![SSP](./vault-ehr-rmf/vault-ehr-rmf/03-implement/ssp.md)
 
 
 ### **STEP 5 — RISK ASSESSMENT**
