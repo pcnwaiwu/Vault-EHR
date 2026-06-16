@@ -191,7 +191,7 @@ Compile the full ATO package and make an authorization
 recommendation based on Vault's risk posture.
 
 *Ref 8: Authorization Recommendation*
-![ATO](./diagrams/ATO_Recommendation.png)
+![ATO](./vault-ehr-rmf/vault-ehr-rmf/05-authorize/ato-package)
 
 
 ### **STEP 9 — CONTINUOUS MONITORING**
