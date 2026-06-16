@@ -183,7 +183,7 @@ Track all findings and weaknesses with remediation plans
 and target completion dates.
 
 *Ref 7: POA&M Tracker*
-![POAM](./diagrams/POAM_Tracker.png)
+![POAM](./vault-ehr-rmf/vault-ehr-rmf/05-authorize/poam.md)
 
 
 ### **STEP 8 — AUTHORIZATION**
