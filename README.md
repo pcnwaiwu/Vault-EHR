@@ -167,7 +167,7 @@ Identify threats and vulnerabilities specific to a healthcare
 environment and rate them by likelihood and impact.
 
 *Ref 5: Risk Register*
-![Risk Register](./diagrams/Risk_Register.png)
+![Risk Register](./vault-ehr-rmf/vault-ehr-rmf/05-authorize/risk-register.md)
 
 
 ### **STEP 6 — SECURITY ASSESSMENT**
