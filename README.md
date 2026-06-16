@@ -175,7 +175,7 @@ Develop a SAP and SAR to test whether Vault's controls
 are working as intended.
 
 *Ref 6: SAR Findings Summary*
-![SAR](./diagrams/SAR_Findings.png)
+![SAR](./vault-ehr-rmf/vault-ehr-rmf/04-assess/sar.md)
 
 
 ### **STEP 7 — POA&M**
