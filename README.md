@@ -199,7 +199,7 @@ Document how Vault will be monitored on an ongoing basis
 after authorization.
 
 *Ref 9: Continuous Monitoring Schedule*
-![ConMon](./diagrams/vault-ehr-rmf/vault-ehr-rmf/06-monitor/conmon-strategy.md)
+![ConMon](./vault-ehr-rmf/vault-ehr-rmf/06-monitor/conmon-strategy.md)
 
 
 
